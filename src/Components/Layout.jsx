@@ -8,7 +8,9 @@ const Layout = ({ children }) => {
         <Header />
       </header>
       <main>{children}</main>
-      <footer>{/* Footer content goes here */}</footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
