@@ -1,133 +1,101 @@
 import React from "react";
+import logo from "../assets/EyeGlass.png";
+import linkedin from "../assets/linkedin.svg";
+import instagram from "../assets/Instagram.svg";
+import twitter from "../assets/twitter.svg";
 
 const Footer = () => {
   return (
-    <div>
-      {/*  <div className="grid grid-cols-12 lg:flex justify-between  items-center py-4 lg:px-14 px-7">
-        <div className="text-3xl col-span-3 left-8 cursor-pointer lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 16 16"
-            fill="currentColor"
-            className="w-4 h-4"
-          >
-            <path
-              fillRule="evenodd"
-              d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
-              clipRule="evenodd"
-            />
-          </svg>
-        </div>
-        <div>
-          <a
-            className="col-span-6 lg:col-span-3 flex justify-center lg:justify-start"
-            href="/"
-          >
-            <img src={logo} alt="" className="h-[47px]" />
-          </a>
-        </div>
-        <div className="col-span-3 flex items-center justify-end">
+    <div className="flex flex-col lg:px-14 md:px-12 px-7 ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 md:justify-items-end sm:grid-cols-1 lg:justify-items-center sm:justify-items-start pb-10 ">
+        <div className="flex flex-col gap-y-5">
           <div>
-            <a
-              className="relative mr-2 text-heading-text lg:hidden"
-              href="/cart"
-            >
-              <small className="absolute top-[-10px] right-[-10px] bg-primary text-white rounded-full text-xs p-1 pl-[5px] w-5 h-5 flex justify-center items-center">
-                0
-              </small>
-              fg
-            </a>
+            <img src={logo} className="h-[37px]" />
           </div>
-          <div className="md:hidden">
-            <a href="/login">
-              <button className="bg-primary text-heading-text rounded">
-                Log In
-              </button>
-            </a>
-          </div>
-        </div>
-        <ul className="w-full text-center lg:pb-0 pb-12 absolute lg:static lg:z-auto z-[-1] left-0 lg:w-auto transition-all duration-500 ease-in top-[-490px] false">
-          <div className="lg:flex lg:items-center space-y-7 lg:space-y-0 lg:space-x-5">
-            <li className="text-xl lg:my-0 my-7">
-              <a
-                aria-current="page"
-                className="text-heading-text  font-normal"
-                href="/"
-              >
-                Home
-              </a>
-            </li>
-            <li className="text-xl lg:my-0 my-7">
-              <a
-                className="hover:text-primary  text-heading-text  font-normal duration-500"
-                href="#"
-              >
-                About Us
-              </a>
-            </li>
-            <li className="text-xl lg:my-0 my-7">
-              <a
-                className="hover:text-primary text-heading-text  font-normal duration-500"
-                href="#"
-              >
-                Prouducts
-              </a>
-            </li>
-            <li className="text-xl lg:my-0 my-7">
-              <a
-                className="hover:text-primary text-heading-text  font-normal duration-500"
-                href="#"
-              >
-                Features
-              </a>
-            </li>
-            <li className="text-xl lg:my-0 my-7">
-              <a
-                className="hover:text-primary text-heading-text  font-normal duration-500"
-                href="#"
-              >
-                Reviews
-              </a>
-            </li>
-            <li className="text-xl lg:my-0 my-7">
-              <a
-                className="hover:text-primary text-heading-text font-normal duration-500"
-                href="#"
-              >
-                Features
-              </a>
-            </li>
-          </div>
-        </ul>
-        <div className="flex justify-between gap-4">
-          <div>
-            <a className="relative hidden lg:block" href="/cart">
-              <small className="absolute top-[-10px] right-[-10px] bg-primary text-white rounded-full text-xs p-1 pl-[5px] w-5 h-5 flex justify-center items-center">
-                0
-              </small>
-              fg
-            </a>
-          </div>
-          <div className=" hidden lg:block">
+          <p className=" text-heading-text text-base font-normal leading-7">
+            Latin literature from 45 BC, making it over 2000 years old. Richard
+            McClintock, a Latin professor at Hampde
+          </p>
+          <div className="flex justify-start gap-2">
             <a href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                />
-              </svg>
+              <img src={linkedin} />
+            </a>
+            <a href="#">
+              <img src={instagram} />
+            </a>
+            <a href="#">
+              <img src={twitter} />
             </a>
           </div>
         </div>
-      </div> */}
+        <div className="flex flex-col gap-y-5">
+          <p className="text-xl font-bold pt-2">Support</p>
+          <div className="flex flex-col gap-y-3 text-heading-text text-base">
+            <a href="#">
+              <p className="text-base">Privacy Policy</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Terms & Conditions</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Product FAQs</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Product FAQs</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Manage Account</p>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-5 md:justify-self-start">
+          <p className="text-xl font-bold pt-2">Quick Links</p>
+          <div className="flex flex-col gap-y-3 text-heading-text text-base">
+            <a href="#">
+              <p className="text-base">About Us</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Blog Post</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Product Features</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Company Info</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Company Info</p>
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-5">
+          <p className="text-xl font-bold pt-2">Communnity</p>
+          <div className="flex flex-col gap-y-3 text-heading-text text-base">
+            <a href="#">
+              <p className="text-base">Become an affiliate</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Help Center</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Product FAQs</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Our Fourms</p>
+            </a>
+            <a href="#">
+              <p className="text-base">Product API</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-between gap-5 md:gap-10 border-t border-bgcolor-one py-5">
+        <p>Copyright © 2023 All rights reserved by Eyeglass</p>
+        <div className="flex flex-col md:flex-row justify-between gap-3 md:gap-5">
+          <p>Privacy Policy</p>
+          <p>Terms of service</p>
+        </div>
+      </div>
     </div>
   );
 };
