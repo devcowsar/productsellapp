@@ -6,7 +6,7 @@ import twitter from "../assets/twitter.svg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col lg:px-14 md:px-12 px-7 ">
+    <div className="flex flex-col lg:px-14 md:px-12 px-7 mt-5 md:mt-7 lg:mt-9">
       <div className="grid lg:grid-cols-4 md:grid-cols-2 md:justify-items-end sm:grid-cols-1 lg:justify-items-center sm:justify-items-start pb-10 ">
         <div className="flex flex-col gap-y-5">
           <div>
