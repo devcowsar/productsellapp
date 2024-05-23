@@ -19,7 +19,7 @@ const ProductCard = ({ product, addToCart }) => {
           {product.discount}%
         </p>
         <div>
-          <IoHeartCircleOutline className="text-4xl absolute top-[20px] right-[20px]" />
+          <IoHeartCircleOutline className="text-4xl text-body-text absolute top-[20px] right-[20px]" />
         </div>
         <div className="bg-[#F7F7F7] px-5 py-9 rounded-sm our-product">
           <Slider {...settings}>
