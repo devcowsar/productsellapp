@@ -1,9 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-
+import { CiSearch } from "react-icons/ci";
+import { MdOutlineProductionQuantityLimits } from "react-icons/md";
+import { MdOutlinePayment } from "react-icons/md";
+import { FaTruck } from "react-icons/fa";
 import image from "../assets/simage.png";
-import image1 from "../assets/Image1.png";
-import image2 from "../assets/Image.png";
+import image1 from "../assets/Image.png";
+import image2 from "../assets/Image3.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -44,7 +47,7 @@ const settings = {
 const Slide = () => {
   return (
     <div className="hero-slider flex justify-items-center ">
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <Slider {...settings}>
           {slides.map((slide) => (
             <div key={slide.id}>
@@ -66,11 +69,80 @@ const Slide = () => {
                     alt={slide.headline}
                   />
                 </div>
-                <div className=""></div>
               </div>
             </div>
           ))}
         </Slider>
+        <div className="px-11 h-auto lg:h-[100px] md:h-[110px]">
+          <div className="md:absolute lg:bottom-[8px] md:bottom-[-33px] static">
+            <div className="flex md:flex-row justify-center flex-col gap-5">
+              <div className="flex flex-col items-center gap-3">
+                <div className="bg-bgcolor-one p-3 rounded-[100px] border inline-block md:mt-0 mt-5">
+                  <CiSearch className="text-body-text text-2xl " />
+                </div>
+                <div className="flex flex-col items-center gap-2 ">
+                  <p className="text-xl font-bold text-heading-text">
+                    Serach your sunglass
+                  </p>
+                  <p className="text-body-text text-base font-normal">
+                    Shop stylish eye wear now
+                  </p>
+                </div>
+              </div>
+              <div className="relative md:block hidden">
+                <div className="w-14 inline-block border-t-2 border-dotted mt-7 "></div>
+                <p className="bg-bgcolor-one p-1 border rounded-full inline-block absolute top-[23px] "></p>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <div className="bg-bgcolor-one p-3 rounded-[100px] border inline-block">
+                  <MdOutlineProductionQuantityLimits className="text-body-text text-2xl" />
+                </div>
+                <div className="flex flex-col items-center gap-2 ">
+                  <p className="text-xl font-bold text-heading-text">
+                    Select Sunglass
+                  </p>
+                  <p className="text-body-text text-base font-normal">
+                    Share your style
+                  </p>
+                </div>
+              </div>
+              <div className="relative md:block hidden">
+                <div className="w-14 inline-block border-t-2 border-dotted mt-7 "></div>
+                <p className="bg-bgcolor-one p-1 border rounded-full inline-block absolute top-[23px] "></p>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <div className="bg-bgcolor-one p-3 rounded-[100px] border inline-block">
+                  <MdOutlinePayment className="text-body-text text-2xl" />
+                </div>
+                <div className="flex flex-col items-center gap-2 ">
+                  <p className="text-xl font-bold text-heading-text">
+                    Make Payment
+                  </p>
+                  <p className="text-body-text text-base font-normal">
+                    Securely checkout now
+                  </p>
+                </div>
+              </div>
+              <div className="relative md:block hidden">
+                <div className="w-14 inline-block border-t-2 border-dotted mt-7 "></div>
+                <p className="bg-bgcolor-one p-1 border rounded-full inline-block absolute top-[23px] "></p>
+              </div>
+              <div className="flex flex-col items-center gap-3">
+                <div className="bg-bgcolor-one p-3 rounded-[100px] border inline-block">
+                  <FaTruck className="text-body-text text-2xl" />
+                </div>
+                <div className="flex flex-col items-center gap-2 ">
+                  <p className="text-xl font-bold text-heading-text">
+                    Recieved Product
+                  </p>
+                  <p className="text-body-text text-base font-normal">
+                    See the world clearly
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
