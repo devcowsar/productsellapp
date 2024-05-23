@@ -107,7 +107,7 @@ const Header = ({ cartCount }) => {
               </li>
               <li className="text-xl">
                 <a
-                  href="#"
+                  href="#about"
                   className="block py-2 pl-3 pr-4 text-heading-text  font-normal border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About Us
@@ -115,7 +115,7 @@ const Header = ({ cartCount }) => {
               </li>
               <li className="text-xl">
                 <a
-                  href="#"
+                  href="#products"
                   className="block py-2 pl-3 pr-4 text-heading-text font-normal border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Products

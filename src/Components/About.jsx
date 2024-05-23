@@ -3,7 +3,7 @@ import glass from "../assets/mask.png";
 
 const About = () => {
   return (
-    <div className="py-5 lg:py-9 md:py-7">
+    <div className="py-5 lg:py-9 md:py-7" id="about">
       <div className="flex lg:flex-row flex-col-reverse justify-items-stretch">
         <div className="bg-bgcolor-one px-12 py-12 flex-1">
           <div className="flex flex-col gap-6">
