@@ -31,7 +31,7 @@ function App() {
         <div className="flex lg:flex-row flex-col lg:justify-between justify-center items-center  px-7 text-base text-body-text font-normal">
           <p>
             Experience crystal clear vision and elevated style with our
-            <span className="hidden lg:block">
+            <span className="hidden lg:block lg:mt-[-15px]">
               <br />
             </span>{" "}
             premium collection of eyeglasses.
