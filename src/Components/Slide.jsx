@@ -37,6 +37,8 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
 };
 
 const Slide = () => {
@@ -46,13 +48,13 @@ const Slide = () => {
         <Slider {...settings}>
           {slides.map((slide) => (
             <div key={slide.id}>
-              <div className="grid md:grid-cols-2 grid-cols-1 content-center px-12">
-                <div className=" flex self-center justify-center">
-                  <div className="hero-content">
+              <div className="grid md:grid-cols-2 grid-cols-1 content-center px-12 relative">
+                <div className=" flex self-center md:justify-center justify-start">
+                  <div className="hero-content absolute  md:static">
                     <h2 className="relative font-bold text-heading-text lh-65 w-200p fs-52">
                       {slide.headline}
                     </h2>
-                    <button className="bg-heading-text text-white-text py-4 px-7 rounded-md font-bold mt-4">
+                    <button className="bg-heading-text text-white-text py-4 md:px-7 px-5 rounded-md font-bold mt-4">
                       {slide.button}
                     </button>
                   </div>
