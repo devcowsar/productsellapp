@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const Layout = ({ children }) => {
+const Layout = ({ children, cartCount }) => {
   return (
     <div>
       <header>
-        <Header />
+        <Header cartCount={cartCount} />
       </header>
       <main>{children}</main>
       <footer>
