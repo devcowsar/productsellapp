@@ -50,7 +50,7 @@ const Slide = () => {
       <div className="container mx-auto ">
         <Slider {...settings}>
           {slides.map((slide) => (
-            <div key={slide.id}>
+            <div key={slide.id} className="bg-[#EAEAEA]">
               <div className="grid md:grid-cols-2 grid-cols-1 content-center px-12 relative">
                 <div className=" flex self-center md:justify-center justify-start">
                   <div className="hero-content absolute  md:static">
