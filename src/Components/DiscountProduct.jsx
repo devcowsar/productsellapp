@@ -27,7 +27,7 @@ const DiscountProduct = () => {
                 </p>
               </div>
               <div>
-                <button className="px-8 py-2.5 bg-heading-text text-white-text rounded-md">
+                <button className="px-8 py-2.5 bg-heading-text text-lg font-bold text-white-text rounded-md">
                   Buy Now
                 </button>
               </div>
@@ -45,14 +45,14 @@ const DiscountProduct = () => {
             <div className="bg-white-text absolute lg:top-[220px] md:top-[190px] top-[170px] lg:right-[40px] md:right-[20px]  px-8 py-3 flex flex-col items-center gap-3">
               <div className="flex flex-col gap-1">
                 <p className="text-heading-text text-[25px] font-bold leading-[35px] text-center">
-                  Bravo Sunglasses
+                  John Jacobs
                 </p>
                 <p className="text-heading-text text-xl leading-[30px] text-center">
-                  Up to 80% off on selected item
+                  Up to 40% off on selected item
                 </p>
               </div>
               <div>
-                <button className="px-8 py-2.5 bg-heading-text text-white-text rounded-md">
+                <button className="px-8 py-2.5 bg-heading-text text-lg font-bold text-white-text rounded-md">
                   Buy Now
                 </button>
               </div>
@@ -70,14 +70,14 @@ const DiscountProduct = () => {
             <div className="bg-white-text absolute top-[140px] md:top-[110px] top-[90px] lg:right-[40px] md:right-[20px]  px-8 py-3 flex flex-col items-center gap-3">
               <div className="flex flex-col gap-1">
                 <p className="text-heading-text text-[25px] font-bold leading-[35px] text-center">
-                  Bravo Sunglasses
+                  Tommy Hilfiger
                 </p>
                 <p className="text-heading-text text-xl leading-[30px] text-center">
-                  Up to 80% off on selected item
+                  Up to 30% off on selected item
                 </p>
               </div>
               <div>
-                <button className="px-8 py-2.5 bg-heading-text text-white-text rounded-md">
+                <button className="px-8 py-2.5 bg-heading-text text-lg font-bold text-white-text rounded-md">
                   Buy Now
                 </button>
               </div>
@@ -93,14 +93,14 @@ const DiscountProduct = () => {
             <div className="bg-white-text absolute lg:top-[290px] md:top-[260px] top-[250px]  lg:right-[40px] md:right-[20px]   px-8 py-3 flex flex-col items-center gap-3">
               <div className="flex flex-col gap-1">
                 <p className="text-heading-text text-[25px] font-bold leading-[35px] text-center">
-                  Bravo Sunglasses
+                  Vincent Chase
                 </p>
                 <p className="text-heading-text text-xl leading-[30px] text-center">
-                  Up to 80% off on selected item
+                  Up to 10% off on selected item
                 </p>
               </div>
               <div>
-                <button className="px-8 py-2.5 bg-heading-text text-white-text rounded-md">
+                <button className="px-8 py-2.5 bg-heading-text text-lg font-bold text-white-text rounded-md">
                   Buy Now
                 </button>
               </div>
